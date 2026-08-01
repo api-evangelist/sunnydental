@@ -1,7 +1,26 @@
 aid: sunnydental
-name: sunnydental
-description: sunnydental is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunnydental.png
+name: Sai De Yang Guang Oral Care
+description: Sai De Yang Guang Oral Care (赛德阳光口腔) is a dental healthcare chain operating
+  across China, founded in 2007 by orthodontist Zhou Yanheng, formerly a director at Peking
+  University School of Stomatology. It runs roughly 30 clinics across major cities including
+  Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Xiamen, Xi'an, Tianjin, Shenyang and
+  Changsha, with nearly 340 treatment chairs, and provides orthodontics (including Invisalign),
+  dental implants, pediatric dentistry, cosmetic dentistry and periodontal treatment. It is a
+  portfolio company of Qiming Venture Partners. The company operates a patient-facing website
+  (appointment booking, clinic locations, expert profiles) and publishes no public API or
+  developer program.
 url: https://raw.githubusercontent.com/api-evangelist/sunnydental/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Dental
+- Oral Care
+- Orthodontics
+- Medical
+- Clinics
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sunnydental-domain-security.yml
 - type: Website
   url: https://sunnydental.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
