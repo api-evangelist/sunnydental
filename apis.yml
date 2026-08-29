@@ -33,6 +33,9 @@ description: Sai De Yang Guang Oral Care (赛德阳光口腔) is a dental health
   (appointment booking, clinic locations, expert profiles) and publishes no public API or
   developer program.
 url: https://raw.githubusercontent.com/api-evangelist/sunnydental/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company operates a patient-facing website (appointment booking, clinic locations, expert profiles) and publishes no public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
